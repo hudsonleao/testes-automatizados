@@ -1,10 +1,8 @@
-const http = require("http");
-const express = require("express");
-
+const express = require('./config/express');
 const app = express();
+const cors = require('cors');
 
-app.get("/", function(req, res) {
-    res.send("<h1>Servidor rodando com ExpressJS</h1>");
-});
+app.use(cors());
 
-http.createServer(app).listen(3000, () => console.log("Servidor rodando local na porta 3000"));
+app.listen(3000, () => console.log('Rodando na porta 3000'));
+
