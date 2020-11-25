@@ -1,0 +1,11 @@
+<testsuite name="Mocha Tests" tests="9" failures="0" errors="0" skipped="0" timestamp="Wed, 25 Nov 2020 02:02:21 GMT" time="0.323">
+<testcase classname="TESTES DE SUCESSO... Testando fun&#xE7;&#xF5;es... isValid" name="Teste na fun&#xE7;&#xE3;o isValid" time="0.086"/>
+<testcase classname="TESTES DE SUCESSO... Testando rotas... /login" name="Teste na rota de login" time="0.076"/>
+<testcase classname="TESTES DE SUCESSO... /api/users" name="Teste na rota de usu&#xE1;rios" time="0.011"/>
+<testcase classname="TESTES DE SUCESSO... /api/users/:username" name="Teste na rota de login com username e password vazio" time="0.008"/>
+<testcase classname="TESTES DE ERRO... Testando fun&#xE7;&#xF5;es... isValid" name="Teste na fun&#xE7;&#xE3;o isValid username incorreto" time="0.004"/>
+<testcase classname="TESTES DE ERRO... Testando fun&#xE7;&#xF5;es... isValid" name="Teste na fun&#xE7;&#xE3;o isValid" time="0.003"/>
+<testcase classname="TESTES DE ERRO... Testando rotas... /login" name="Teste na rota de login com username e password vazio" time="0.009"/>
+<testcase classname="TESTES DE ERRO... Testando rotas... /login" name="Teste na rota de login com username incorreto" time="0.01"/>
+<testcase classname="TESTES DE ERRO... /api/users/:username" name="Teste na rota de login com username e password vazio" time="0.013"/>
+</testsuite>
